@@ -1,0 +1,39 @@
+Merhaba efendim. Hoş geldiniz.
+Hoş bulduk.
+Hoş bulduk.
+Menü alabilir miyiz?
+Tabi ki efendim.
+Ne yiyeceğine karar verdin mi canım?
+Evet canım. Karar verdim.
+Tamam. Ben de karar verdim.
+Garson Bey, bakar mısınız?
+Buyurun.
+Siparişimizi verebiliriz.
+Tabi ki.
+Ne istersiniz?
+Ben bir porsiyon iskender alayım.
+Ben de tavuk pirzola istiyorum.
+İçecek ne alırsınız?
+Meyveli soda.
+Bana da ayran lütfen.
+Tamam efendim.
+Birer porsiyon iskender ve tavuk pirzola, bir meyveli soda ve bir ayran.
+Başlangıç olarak çorba ister misiniz?
+Mercimek, domates ve ezo gelin çorbaları var.
+Teşekkürler. Ben istemiyorum.
+Sen çorba ister misin hayatım?
+Evet canım.
+Mercimek çorbası olsun lütfen.
+Peki hanımefendi.
+Siparişlerinizi hemen getiriyorum.
+Garson Bey.
+Afiyet olsun efendim.
+Tatlı ister misiniz?
+Çayda ikram edelim.
+Sağ olun. Teşekkürler.
+Hesaba alabilir miyiz?
+Buyurun efendim.
+Teşekkür ederiz.
+Kolay gelsin.
+Afiyet olsun efendim.
+Yine bekleriz.
