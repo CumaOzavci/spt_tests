@@ -10,7 +10,7 @@ from vosk import Model, KaldiRecognizer
 
 q = queue.Queue()
 
-wake_up_word = "Hey robot"
+wake_up_word = "Hey saha"
 
 def int_or_str(text):
     """Helper function for argument parsing."""
@@ -58,7 +58,8 @@ try:
         print("Press Ctrl+C to stop the recording")
         print("#" * 80)
 
-        rec = KaldiRecognizer(model, args.samplerate)
+        rec = KaldiRecognizer(model, args.samplerate, '["hey saha"]')
+
         while True:
             data = q.get()
             if rec.AcceptWaveform(data):
