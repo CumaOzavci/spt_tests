@@ -63,9 +63,9 @@ try:
         while True:
             data = q.get()
             if rec.AcceptWaveform(data):
-                print("1", rec.Result())
+                print(rec.Result())
             else:
-                print("2", rec.PartialResult())
+                print(rec.PartialResult())
 
 except KeyboardInterrupt:
     print("\nDone")
