@@ -175,6 +175,7 @@ slam-toolbox==2.6.5
 smach-msgs==3.0.3
 -e git+ssh://git@github.com/saha-robotics/ros2_dep_ws.git@917ea0e708c8a4304ed9993c2a113ac7768cde9b#egg=smach_ros&subdirectory=build/smach_ros
 smclib==3.0.2
+sounddevice==0.4.6
 sros2==0.10.4
 srt==3.5.3
 statistics-msgs==1.2.1
