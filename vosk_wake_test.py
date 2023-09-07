@@ -10,7 +10,7 @@ from vosk import Model, KaldiRecognizer
 
 q = queue.Queue()
 
-wake_up_word = "Hey saha"
+wake_up_word = "hey speedy"
 
 def int_or_str(text):
     """Helper function for argument parsing."""
@@ -50,7 +50,7 @@ try:
         # soundfile expects an int, sounddevice provides a float:
         args.samplerate = int(device_info["default_samplerate"])
 
-    model = Model(lang="tr")
+    model = Model(lang="en-us")
 
     with sd.RawInputStream(samplerate=args.samplerate, blocksize = 8000, device=args.device,
             dtype="int16", channels=1, callback=callback):
@@ -58,7 +58,7 @@ try:
         print("Press Ctrl+C to stop the recording")
         print("#" * 80)
 
-        rec = KaldiRecognizer(model, args.samplerate, '["hey saha"]')
+        rec = KaldiRecognizer(model, args.samplerate, '["hey speedy"]')
 
         while True:
             data = q.get()
