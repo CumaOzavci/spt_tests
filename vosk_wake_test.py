@@ -50,7 +50,7 @@ try:
         # soundfile expects an int, sounddevice provides a float:
         args.samplerate = int(device_info["default_samplerate"])
 
-    model = Model(lang="en-us")
+    model = Model(model_path="/home/cuma/Workspaces/Saha/spt_tests/models/vosk-model-small-tr-0.3")
 
     with sd.RawInputStream(samplerate=args.samplerate, blocksize = 8000, device=args.device,
             dtype="int16", channels=1, callback=callback):
